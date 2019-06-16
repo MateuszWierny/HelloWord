@@ -1,6 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println( " Hello Word " );
+        String lacalmassage = " Hello Word ";
+        print( " Hello Word " );
+    }
+
+    public static void print(String massage){
+        System.out.println( massage );
     }
 }
